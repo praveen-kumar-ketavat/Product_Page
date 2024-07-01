@@ -204,3 +204,92 @@ button{
     background-color: black;
     color:white;
 }
+
+@media only screen and (max-width:1280px){
+    .large{
+        height:550px;
+        width:600px;
+    }
+}
+
+@media only screen and (max-width:1130px){
+    .large{
+        height:500px;
+        width:600px;
+    }
+    .small{
+        height:500px;
+        width:150px;
+    }
+    .box{
+        height:90px;
+        width:90px;
+    }
+}
+@media only screen and (max-width:1050px){
+    .large{
+        height:400px;
+        width:600px;
+    }
+    .small{
+        height:500px;
+        width:150px;
+    }
+    .box{
+        height:90px;
+        width:90px;
+    }
+}
+@media only screen and (max-width:900px){
+    .product{
+        height:1000px;
+        display:flex;
+        flex-direction: column;
+    }
+    .large{
+        margin-left:30px;
+        height:1000px;
+        width:400px;
+        background-size: cover;
+        
+    }
+    .small{
+        height:500px;
+        width:90%;
+        flex-direction: row;
+    }
+    .box{
+        height:90px;
+        width:90px;
+    }
+}
+@media only screen and (max-width:770px){
+    
+    .menu-items{
+        height:100%;
+        width:550px;
+    }
+}
+@media only screen and (max-width:650px){
+    .small{
+        height:500px;
+        width:550px;
+    }
+    .box{
+        height:85px;
+        width:85px;
+    }
+    .menu{
+        width:650px;
+        
+    }
+    .menu-text{
+        font-size:15px;
+        justify-content: flex-start;
+    }
+    
+    .menu-items{
+        height:100%;
+        width:500px;
+    }
+}

@@ -6,6 +6,7 @@ button.onclick=()=>{
     counter++;
     count.innerText=`${counter}`;
     count.style.backgroundColor="black";
+    button.innerText="Added"
     button.style.backgroundColor="black";
     button.style.color="white";
 }
