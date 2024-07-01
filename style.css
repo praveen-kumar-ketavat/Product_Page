@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    height:100vh;
+    /* background-color: aquamarine; */
+}
+.menu{
+    height:50px;
+    width:100%;
+    /* background-color: burlywood; */
+    border-bottom: 1.5px solid black;;
+}
+
+.menu-items{
+    height:100%;
+    width:700px;
+    /* background-color: aquamarine; */
+    display:flex;
+    justify-content: space-around;
+    font-size:20px;
+}
+.menu-main{
+    margin-top:8px;
+    font-size:35px;
+    font-weight: bold;
+}
+.menu-text{
+    margin-top:20px;
+}
+i{
+    position:fixed;
+    right:60px;
+    font-size:30px;
+    margin-top:10px
+}
+.cart-count{
+    position:fixed;
+    right:45px;
+    height:20px;
+    width:20px;
+    /* background-color:rgb(14, 21, 238); */
+    color:white;
+    border-radius:50%;
+    text-align:center;
+}
+
+.product{
+    height:725px;
+    width:100%;
+    /* background-color: brown; */
+    display: flex;
+}
+.small{
+    height:560px;
+    width:150px;
+    /* background-color: bisque; */
+    margin:10px 2px 10px 15px;
+    display: inline;
+    top:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.large{
+    height:625px;
+    width:625px;
+    /* background-color:aliceblue; */
+    margin:10px 2px 10px 1px;
+    display: inline;
+    background-image:url("./images/white/image1.jpg");
+    background-size: cover;
+    border:3px solid rgb(159, 159, 159);
+    border-radius: 3px;
+}
+
+.details{
+    height:600px;
+    width:600px;
+    /* background-color: cornflowerblue; */
+    margin:30px;
+    border-radius:4px;
+}
+.text{
+    font-size: 25px;
+    font-weight: bold;
+}
+#name{
+    font-size:40px;
+    font-weight: bold;
+}
+.id-mat{
+    font-size:20px;
+    margin:10px 0 10px 20px;
+}
+#para{
+    margin:8px;
+}
+.intro{
+    margin-top:40px;
+    margin-left:10px;
+}
+.color, .size{
+    margin-left:20px;
+    margin-top:5px;
+}
+#price{
+    display: inline-block;
+    margin:35px 15px 15px 30px;
+    font-size:30px;
+}
+.c1, .c2, .c3{
+    height: 30px;
+    width:30px;
+    margin:5px;
+    display:inline-block;
+    border-radius: 50%;
+    border:2px solid black;
+}
+.c1{
+    background-color: white;
+}
+.c2{
+    background-color: black;
+}
+.c3{
+    background-color: 	#ebe5d5;
+}
+.s1, .s2, .s3, .s4{
+    height: 30px;
+    width:50px;
+    /* background-color: chartreuse; */
+    margin:5px;
+    display:inline-block;
+    padding:2px 0 0 0;
+    font-size:20px;
+    border-radius:4px;
+    text-align: center;
+    border:2px solid black;
+}
+button{
+    font-size:20px;
+    font-weight: bold;
+    padding:8px;
+    border-radius: 4px;
+}
+
+.box{
+    height:100px;
+    width:100px;
+    /* background-color: aqua; */
+    margin-left:35px;
+    border:2px solid rgb(159, 159, 159)
+}
+#I1{
+    background-image:url("./images/white/image1.jpg");
+    background-size: cover;
+}
+#I2{
+    background-image:url("./images/white/image2.jpg");
+    background-size: cover;
+}
+#I3{
+    background-image:url("./images/white/image3.jpg");
+    background-size: cover;
+}
+#I4{
+    background-image:url("./images/white/image4.jpg");
+    background-size: cover;
+}
+#I5{
+    background-image:url("./images/white/image5.jpg");
+    background-size: cover;
+}
+
+#I1:hover, #I2:hover, #I3:hover, #I4:hover, #I5:hover{
+    transform: scale(1.1);
+    border:2px solid black;
+    cursor:pointer;
+}
+.large:hover{
+    border:3px solid black
+}
+
+.c1:hover, .c2:hover, .c3:hover{
+    border:2px solid rgb(247, 214, 153);
+    cursor:pointer;
+}
+.s1:hover, .s2:hover, .s3:hover, .s4:hover, button:hover{
+    /* background-color: rgb(158, 156, 156);
+    color:white; */
+    cursor:pointer;
+}
+.menu-text:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.menu-main:hover{
+    cursor:pointer;
+}
+
+.on{
+    background-color: black;
+    color:white;
+}
