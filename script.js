@@ -1,3 +1,6 @@
+
+// made the add-to-cart button functional.
+// on clicking the button the number will get displayed on the cart icon.
 let button=document.querySelector("#add-to-cart");
 let count=document.querySelector(".cart-count");
 
@@ -11,7 +14,9 @@ button.onclick=()=>{
     button.style.color="white";
 }
 
-
+// made color buttons functional.
+// on clicking the one of the colors the small and large pictures of product get changed.
+// the name of the product also changes with the change in color.
 let c1=document.querySelector(".c1");
 let c2=document.querySelector(".c2");
 let c3=document.querySelector(".c3");
@@ -50,6 +55,9 @@ function change(col){
     I5.style.backgroundImage=`url("./images/${col}/image5.jpg")`;
 }
 
+
+// made the size buttons functional.
+// on clicking the size button the color changes and indicates that it is selected.
 let s1=document.querySelector(".s1");
 let s2=document.querySelector(".s2");
 let s3=document.querySelector(".s3");
@@ -68,7 +76,9 @@ s4.onclick=()=>{
     s4.classList.toggle('on');
 }
 
-
+// now this is the fuctionality applied on small pictures.
+// on clicking any small picture it get displayed in the large picture.
+// the large picture will change by which ever small we click.
 let num="1";
 I1.onclick=()=>{
     num="1";
@@ -95,6 +105,9 @@ function changeLarge(num){
         large.style.backgroundImage=`url("./images/${color}/image${num}.jpg")`;
 }
 
+
+// refershing the page.
+// on clicking the brand name the page will get refreshed.
 let refresh=document.querySelector(".menu-main");
 refresh.onclick=()=>{
     location.reload();

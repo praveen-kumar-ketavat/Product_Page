@@ -2,21 +2,21 @@
     margin:0px;
     padding:0px;
 }
+
+/* styling the container */
 .container{
     height:100vh;
-    /* background-color: aquamarine; */
 }
+
+/* styling the menu-bar */
 .menu{
     height:50px;
     width:100%;
-    /* background-color: burlywood; */
     border-bottom: 1.5px solid black;;
 }
-
 .menu-items{
     height:100%;
     width:700px;
-    /* background-color: aquamarine; */
     display:flex;
     justify-content: space-around;
     font-size:20px;
@@ -40,22 +40,20 @@ i{
     right:45px;
     height:20px;
     width:20px;
-    /* background-color:rgb(14, 21, 238); */
     color:white;
     border-radius:50%;
     text-align:center;
 }
 
+/* styling the product segment */
 .product{
     height:725px;
     width:100%;
-    /* background-color: brown; */
     display: flex;
 }
 .small{
     height:560px;
     width:150px;
-    /* background-color: bisque; */
     margin:10px 2px 10px 15px;
     display: inline;
     top:200px;
@@ -66,7 +64,6 @@ i{
 .large{
     height:625px;
     width:625px;
-    /* background-color:aliceblue; */
     margin:10px 2px 10px 1px;
     display: inline;
     background-image:url("./images/white/image1.jpg");
@@ -75,10 +72,10 @@ i{
     border-radius: 3px;
 }
 
+/* styling the details segment */
 .details{
     height:600px;
     width:600px;
-    /* background-color: cornflowerblue; */
     margin:30px;
     border-radius:4px;
 }
@@ -130,7 +127,6 @@ i{
 .s1, .s2, .s3, .s4{
     height: 30px;
     width:50px;
-    /* background-color: chartreuse; */
     margin:5px;
     display:inline-block;
     padding:2px 0 0 0;
@@ -145,11 +141,9 @@ button{
     padding:8px;
     border-radius: 4px;
 }
-
 .box{
     height:100px;
     width:100px;
-    /* background-color: aqua; */
     margin-left:35px;
     border:2px solid rgb(159, 159, 159)
 }
@@ -174,6 +168,7 @@ button{
     background-size: cover;
 }
 
+/* added some hovering events/effects */
 #I1:hover, #I2:hover, #I3:hover, #I4:hover, #I5:hover{
     transform: scale(1.1);
     border:2px solid black;
@@ -182,14 +177,11 @@ button{
 .large:hover{
     border:3px solid black
 }
-
 .c1:hover, .c2:hover, .c3:hover{
     border:2px solid rgb(247, 214, 153);
     cursor:pointer;
 }
 .s1:hover, .s2:hover, .s3:hover, .s4:hover, button:hover{
-    /* background-color: rgb(158, 156, 156);
-    color:white; */
     cursor:pointer;
 }
 .menu-text:hover{
@@ -200,18 +192,19 @@ button{
     cursor:pointer;
 }
 
+/* for changing the color of size button 'used in javascript' */
 .on{
     background-color: black;
     color:white;
 }
 
+/* added media queries to make it responsive and adaptive to mulitple screen sizes. */
 @media only screen and (max-width:1280px){
     .large{
         height:550px;
         width:600px;
     }
 }
-
 @media only screen and (max-width:1130px){
     .large{
         height:500px;
@@ -250,8 +243,7 @@ button{
         margin-left:30px;
         height:1000rem;
         width:30rem;
-        background-size: cover;
-        
+        background-size: cover;   
     }
     .small{
         height:500px;
@@ -264,7 +256,6 @@ button{
     }
 }
 @media only screen and (max-width:770px){
-    
     .menu-items{
         height:100%;
         width:550px;
@@ -276,8 +267,8 @@ button{
         width:550px;
     }
     .box{
-        height:85px;
-        width:85px;
+        height:75px;
+        width:100px;
     }
     .menu{
         width:650px;
@@ -287,7 +278,6 @@ button{
         font-size:15px;
         justify-content: flex-start;
     }
-    
     .menu-items{
         height:100%;
         width:500px;
